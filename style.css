@@ -27,3 +27,9 @@ input{
 	font-family:Tahoma, Geneva, sans-serif;
 	margin:16px 0px 0px 50px;
 }
+
+.forms-box{
+    position: absolute;
+    top:25%;
+    left: 60%;
+}

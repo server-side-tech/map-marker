@@ -72,7 +72,7 @@
 	$output .= $newMap->makeLinkMap();
 
 	// Append the forms with the different form buttons to get user input
-	$output .='	<form method="post" action="index.php" name="" id="">
+	$output .='	<div class="forms-box"><form method="post" action="index.php" name="" id="">
 					<input type="submit" name="submit" value="Download"/>
 					<input type="submit" name="submit" value="Upload"/>
 				</form>
@@ -85,7 +85,7 @@
 				<form method="post" action="index.php" name="" id="">
 					<input type="submit" name="submit" value="New"/>
 					<input type="submit" name="submit" value="Export"/>
-				</form>
+				</form></div>
 				';
 
 ?>
